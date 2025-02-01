@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Leads test suite">
+    <listeners>
+        <listener class-name="com.zoho.qa.listeners.ExtentReportListener"/>
+    </listeners>
+    <test name="CRUD operations on Lead">
+        <classes>
+            <class name="com.zoho.qa.testcases.LeadsTest">
+                <methods>
+                    <include name="testCreateLeads"/>
+                    <include name="testEditLeads"/>
+                    <include name="testDeleteLeads"/>
+                    <include name="testFilterLeads"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
