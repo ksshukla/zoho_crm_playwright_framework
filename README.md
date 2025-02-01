@@ -3,10 +3,6 @@
 ## Project Overview
 This project automates the **Zoho CRM** functionality for the **Leads module** using **TestNG** and **Playwright**. The tests focus on verifying core lead management functionalities such as creating, editing, deleting, and filtering leads.
 
-## Project Structure
-
-
-
 ---
 
 ## **Test Cases Overview**
